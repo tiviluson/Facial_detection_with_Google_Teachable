@@ -8,7 +8,7 @@
 ## Result
 - Due to the lack of sample data, although the models offer quite disappointing confidence and accuaracy (around 70%).
 - One of the class shows worse predictions to the other two, suggesting a posible bias in the model.
-- The model stagnates quite soon, which means the said class is undifferentiable.
+- The model stagnates quite soon (at the 10th epoch, with accuracy about 2/3 * 100%), which means the said class is undifferentiable.
 <p align="center">
   <img src="/assets/training_visualization.png" alt="Training visualization"/>
 </p>
