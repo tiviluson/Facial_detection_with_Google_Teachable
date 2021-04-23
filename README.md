@@ -1,36 +1,13 @@
 # TensorFlow Examples
 
-<div align="center">
-  <img src="https://www.tensorflow.org/images/tf_logo_social.png" /><br /><br />
-</div>
+## Description
+- In this project, I am testing my facial dectection model (to detect me and my two lecturers). 
+- The model is later implemented with **TensorflowLite** framework. Its initial *EfficientNet* and *MobileNet* models are rewritten to test several configurations on my model.
+- Sample data is not uploaded due to privacy issues.
 
-<h2>Most important links!</h2>
-
-* [Community examples](./community)
-* [Course materials](./courses/udacity_deep_learning) for the [Deep Learning](https://www.udacity.com/course/deep-learning--ud730) class on Udacity
-
-If you are looking to learn TensorFlow, don't miss the
-[core TensorFlow documentation](http://github.com/tensorflow/docs)
-which is largely runnable code.
-Those notebooks can be opened in Colab from
-[tensorflow.org](https://tensorflow.org).
-
-<h2>What is this repo?</h2>
-
-This is the TensorFlow example repo.  It has several classes of material:
-
-* Showcase examples and documentation for our fantastic [TensorFlow Community](https://tensorflow.org/community)
-* Provide examples mentioned on TensorFlow.org
-* Publish material supporting official TensorFlow courses
-* Publish supporting material for the [TensorFlow Blog](https://blog.tensorflow.org) and [TensorFlow YouTube Channel](https://youtube.com/tensorflow)
-
-We welcome community contributions, see [CONTRIBUTING.md](CONTRIBUTING.md) and, for style help,
-[Writing TensorFlow documentation](https://www.tensorflow.org/community/documentation)
-guide.
-
-To file an issue, use the tracker in the
-[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/issues/new?template=20-documentation-issue.md) repo.
-
-## License
-
-[Apache License 2.0](LICENSE)
+## Result
+- Due to the lack of sample data, although the models offer quite disappointing confidence and accuaracy (around 70%).
+- One of the class shows worse predictions to the other two, suggesting a posible bias in the model.
+<p align="center">
+  <img src="training_visualization.png" alt="Training visualization"/>
+</p>
